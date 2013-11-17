@@ -3,11 +3,10 @@ public abstract class Character{
     protected String _name = "";
     protected int _hp = 0;
     protected int _def = 0;
+    protected int permdef = 0;
     protected int _str = 0;
     protected double _atk = 0.0;
     protected double permatk = 0.0;
-    protected double _dex = 0.0;
-    protected double permdex = 0.0;
 
     public boolean isAlive(){
 	return _hp > 0;
@@ -38,7 +37,7 @@ public abstract class Character{
     }
 
     public int attack(Character NPC){
-	int dmg = (int)((_str * _atk) - (NPC.getDefense() * _dex));
+	int dmg = _str * _atk;
 
 	if (dmg < 0){
 	    dmg = 0;
@@ -49,12 +48,12 @@ public abstract class Character{
 	return dmg;
     }  
     public void normalize(){
-	_dex = permdex;
+	_def = permdef;
 	_atk = permatk;
     }
 
     public void specialize(){
-	_dex = _dex - .05;
+	_def = _def - 5;
 	_atk = _atk + .05;
     }
 
