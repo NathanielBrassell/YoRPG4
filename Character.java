@@ -31,12 +31,12 @@ public abstract class Character{
 	return _hp;
     }
     
-    public void HPot(){
+    abstract void HPot(){
     	if (_Hpot > 0){
     		_hp = _hp + 25;
     	}
     	else{
-    		System.out.prntln("Thou hast no more Health Potions");
+    		System.out.println("Thou hast no more Health Potions");
     	}
     }
 
