@@ -7,6 +7,7 @@ public abstract class Character{
     protected int _str = 0;
     protected double _atk = 0.0;
     protected double permatk = 0.0;
+    protected int _Hpot = 3;
 
     public boolean isAlive(){
 	return _hp > 0;
@@ -31,6 +32,15 @@ public abstract class Character{
     public int getHP(){
 	return _hp;
     }
+    
+    public void HPot(){
+    	if (_Hpot > 0){
+    		_hp = _hp + 25;
+    	}
+    	else{
+    		System.out.prntln("Thou hast no more Health Potions");
+    	}
+    }
 
     public void lowerHP( int dmg ){
 	_hp = _hp - dmg;
@@ -47,12 +57,12 @@ public abstract class Character{
 
 	return dmg;
     }  
-    abstract void normalize(){
+    public void normalize(){
 	_def = permdef;
 	_atk = permatk;
     }
 
-    abstract void specialize(){
+    public void specialize(){
 	_def = _def - 5;
 	_atk = _atk + .05;
     }
