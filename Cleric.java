@@ -12,4 +12,14 @@ public class Cleric extends Character{
     _hp = _hp + (20 + ((int)Math.random() * 30));
   }
   
+  public void specialize(){
+    _def = 20;
+    _atk = 0.5;
+  }
+  
+  public void normalize(){
+    _def = 30;
+    _atk = 0.3;
+  }
+  
 }
