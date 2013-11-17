@@ -106,7 +106,7 @@
   
       //describes the object
       public static String about() {
-  	    return "You are a brave and courageous archer engaging in long-range combat with the monstes of this world.";
+  	    return "You are a brave and courageous archer engaging in long-range combat with the monsters of this world.";
       }
   
   }//end class Archer
