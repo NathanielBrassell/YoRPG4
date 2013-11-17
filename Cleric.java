@@ -8,6 +8,8 @@ public class Cleric extends Character{
     _atk = 0.3;
   }
   
-  
+  public void Heal(){
+    _hp = _hp + (20 + ((int)Math.random() * 30));
+  }
   
 }
