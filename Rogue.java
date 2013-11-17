@@ -1,5 +1,6 @@
 public class Rogue extends Character{
 
+    private double _dex = 0.0;
 
     public Rogue(String name){
 
@@ -11,16 +12,11 @@ public class Rogue extends Character{
 
 	      _str = 40;
 
-      	_def = 20;
-      	
-      	permdef = 20;
+      	      _def = 20;
 
 	      _dex = 0.5;
 	      
 	      _atk = 0.3;
-
-	      permatk = 0.3;
-
 
 
     }
@@ -39,6 +35,20 @@ public class Rogue extends Character{
 
         _hp = (int)(dmg - (((int)Math.random() * 10) * _dex));
 
+    }
+    
+    public void specialize(){
+    	
+    	_def = 15;
+    	_atk = 0.5;
+    	
+    }
+    
+    public void normalize(){
+    	
+    	_def = 30;
+    	_atk = 0.3;
+    	
     }
 
 
