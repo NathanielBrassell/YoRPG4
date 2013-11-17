@@ -8,8 +8,7 @@ public class Warrior extends Character{
 	_hp = 125;
 	_str = 100;
 	_def = 40;
-	_dex = 0.4;
-	permdex = 0.4;
+	permdef = 40;
 	_atk = 0.4;
 	permatk = 0.4;
 
