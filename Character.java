@@ -47,12 +47,12 @@ public abstract class Character{
 
 	return dmg;
     }  
-    public void normalize(){
+    abstract void normalize(){
 	_def = permdef;
 	_atk = permatk;
     }
 
-    public void specialize(){
+    abstract void specialize(){
 	_def = _def - 5;
 	_atk = _atk + .05;
     }
