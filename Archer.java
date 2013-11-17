@@ -8,7 +8,6 @@
       private String _name = "Robbin Hood";
       private int _hp, _str, _def;
       private double _atk;
-      protected int _Hpot = 3;
       // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   
