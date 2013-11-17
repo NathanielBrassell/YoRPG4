@@ -3,10 +3,8 @@ public abstract class Character{
     protected String _name = "";
     protected int _hp = 0;
     protected int _def = 0;
-    protected int permdef = 0;
     protected int _str = 0;
     protected double _atk = 0.0;
-    protected double permatk = 0.0;
     protected int _Hpot = 3;
 
     public boolean isAlive(){
