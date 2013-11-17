@@ -9,9 +9,7 @@ public class Monster extends Character{
 	_hp = 150;
 
 	_def = 20;
-
-	_dex = 0.7;
-
+	
 	_atk = 1.0;
 
 
