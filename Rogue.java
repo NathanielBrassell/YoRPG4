@@ -30,6 +30,15 @@ public class Rogue extends Character{
     }
 
 
+    public void HPot(){
+   	if (_Hpot > 0){
+        	_hp = _hp + 25;
+        }
+        else{
+            	System.out.println("Thou hast no more Health Potions");
+        }
+    }
+
 
     public void lowerHP( int dmg ){
 
