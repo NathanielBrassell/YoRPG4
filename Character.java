@@ -57,15 +57,9 @@ public abstract class Character{
 
 	return dmg;
     }  
-    public void normalize(){
-	_def = permdef;
-	_atk = permatk;
-    }
+    abstract void normalize();
 
-    public void specialize(){
-	_def = _def - 5;
-	_atk = _atk + .05;
-    }
+    abstract void specialize();
 
     abstract String about();
 
