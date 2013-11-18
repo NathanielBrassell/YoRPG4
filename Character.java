@@ -60,5 +60,7 @@ public abstract class Character{
     abstract void specialize();
 
     abstract String about();
+    
+    abstract String Stats();
 
 }
