@@ -8,8 +8,8 @@ public class Sage extends Character {
 	    _attack = 5.0;
     }
 
-    public void about() {
-	    system.out.println("The sage is an intelligent character devoted to helping the warriors fight monsters when they stumble across battles.");
+    public String about() {
+	    return "The sage is an intelligent character devoted to helping the warriors fight monsters when they stumble across battles.";
     }
     
     public void specialize(){
