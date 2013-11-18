@@ -27,7 +27,7 @@ public class Warrior extends Character{
     }
     
     public String Stats(){
-    	String ret;
+    	String ret = "";
    	ret += _name + " is a Warrior with a defense of "+ _def + ", a strength of "+ _str+ " and has " + _hp+ "Health Points left.";
     	return ret;
     }
