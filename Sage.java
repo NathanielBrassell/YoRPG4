@@ -2,10 +2,10 @@ public class Sage extends Character {
 
     // Constructor
     public Sage() {
-    	_health = 150;
-	    _strength = (int)(Math.random() * 45) + 100;
-	    _defense = 50;
-	    _attack = 5.0;
+    	_hp = 150;
+	    _str = (int)(Math.random() * 45) + 100;
+	    _def = 50;
+	    _atk = 5.0;
     }
 
     public String about() {
