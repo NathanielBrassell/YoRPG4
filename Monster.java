@@ -28,6 +28,6 @@ public class Monster extends Character{
 
     public void normalize() {}
 
-
+    public String Stats() { return ""; }
 
 }
