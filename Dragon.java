@@ -15,4 +15,8 @@ public class Dragon extends Character{
     ret += "They have increased strngth and atack rate, and their scales are harder than any armour.";
     return ret;
   }
+  
+  public void specialize() {}
+
+  public void normalize() {}
 }
