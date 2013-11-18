@@ -17,10 +17,10 @@
         post: initializes instance vars.
         =============================================*/
       public Archer() {
-  	    _hp = 125;
-  	    _str = 100;
-  	    _def = 40;
-  	    _atk = .4; 
+  	    _hp = 100;
+  	    _str = 70;
+  	    _def = 70;
+  	    _atk = .3; 
       }
   
   
