@@ -23,6 +23,10 @@ public class Monster extends Character{
 	return "A Monster uses his claws to rend his enemy.";
 
     }
+    
+    public void specialize() {}
+
+    public void normalize() {}
 
 
 
