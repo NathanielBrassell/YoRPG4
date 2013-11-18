@@ -31,7 +31,7 @@ public abstract class Character{
 	return _hp;
     }
     
-    abstract void HPot(){
+    public void HPot(){
     	if (_Hpot > 0){
     		_hp = _hp + 25;
     	}
