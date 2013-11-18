@@ -20,5 +20,5 @@ public class Dragon extends Character{
 
   public void normalize() {}
   
-  public void Stats() {}
+  public String Stats() { return ""; }
 }
