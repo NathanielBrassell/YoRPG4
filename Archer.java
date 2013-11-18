@@ -46,6 +46,13 @@
   	    _atk = .4;
   	    _def = 40;
       }
+      
+      //describes the Archers Stats
+      public String Stats(){
+        String ret;
+        ret += _name + " is an Archer with a defense of "+ _def + ", a strength of "+ _str+ " and has " + _hp+ "Health Points left.";
+        return ret;
+      }
   
       //describes the object
       public static String about() {
