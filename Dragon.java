@@ -19,4 +19,6 @@ public class Dragon extends Character{
   public void specialize() {}
 
   public void normalize() {}
+  
+  public void Stats() {}
 }
