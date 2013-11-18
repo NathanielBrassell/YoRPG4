@@ -2,7 +2,7 @@ public class Dragon extends Character{
   
   public Dragon(){
     
-    _str = 25 + ((int)Math.random() * 55));
+    _str = 25 + ((int)(Math.random() * 55));
     _hp = 160;
     _def = 30;
     _atk = 1.2;
