@@ -22,6 +22,12 @@ public class Cleric extends Character{
     _atk = 0.3;
   }
   
+  public String Stats(){
+    String ret;
+    ret += _name + " is a Cleric with a defense of "+ _def + ", a strength of "+ _str+ " and has " + _hp+ "Health Points left.";
+    return ret;
+    }
+  
   public String about(){
     return "The Cleric uses magic to heal ones self, and thus does not need to be as agressive in their attacks as do Archers, Warriors or Rogues.";
     
