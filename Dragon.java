@@ -13,6 +13,6 @@ public class Dragon extends Character{
     String ret = "";
     ret += "A Dragon is the most feared enemy of all adventures.\n";
     ret += "They have increased strngth and atack rate, and their scales are harder than any armour.";
-    return ret
+    return ret;
   }
 }
