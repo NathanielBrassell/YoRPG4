@@ -1,19 +1,15 @@
-public class Sage extends Character{
-  
-    String _name = "";
+public class Sage extends Character {
 
-    public Sage(String name){
-
-        _name = name;
-        _hp = 150;
-        _str = 85;
-        _def = 60;
-        _atk = 0.5;
-
+    // Constructor
+    public Sage() {
+    	_health = 150;
+	    _strength = (int)(Math.random() * 45) + 100;
+	    _defense = 50;
+	    _attack = 5.0;
     }
 
-    public String about(){
-        return "A Sage uses his wisdom, knowledge of nature and mystical powers to defeat powers of evil.";
+    public void about() {
+	    system.out.println("The sage is an intelligent character devoted to helping the warriors fight monsters when they stumble across battles.");
     }
     
     public void specialize(){
