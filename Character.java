@@ -45,7 +45,7 @@ public abstract class Character{
     }
 
     public int attack(Character NPC){
-	int dmg = _str * _atk;
+	int dmg = (int)(_str * _atk);
 
 	if (dmg < 0){
 	    dmg = 0;
