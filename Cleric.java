@@ -22,4 +22,9 @@ public class Cleric extends Character{
     _atk = 0.3;
   }
   
+  public String about(){
+    return "The Cleric uses magic to heal ones self, and thus does not need to be as agressive in their attacks as do Archers, Warriors or Rogues.";
+    
+  }
+  
 }
