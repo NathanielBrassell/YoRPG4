@@ -21,5 +21,11 @@ public class Sage extends Character {
             _def = 60;
             _atk = 0.5;
     }
+    
+    public String Stats(){
+    	String ret;
+    	ret += _name + " is Sage with a defense of "+ _def + ", a strength of "+ _str+ " and has " + _hp+ "Health Points left.";
+    	return ret;
+    	}
   
 }
